@@ -22,7 +22,7 @@ export const App = () => {
           <Route path="/search">
             <SearchBooksPage />
           </Route>
-          <Route path="/checkout">
+          <Route path="/checkout/:bookId">
             <BookCheckoutPage />
           </Route>
         </Switch>
