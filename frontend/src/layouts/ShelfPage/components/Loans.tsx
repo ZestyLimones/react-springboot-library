@@ -103,7 +103,7 @@ export const Loans = () => {
                             className="list-group-item list-group-item-action"
                             aria-current="true"
                             data-bs-toggle="modal"
-                            data-bs-target={`#model${shelfCurrentLoan.book.id}`}
+                            data-bs-target={`#modal${shelfCurrentLoan.book.id}`}
                           >
                             Manage Loan
                           </button>
@@ -191,7 +191,7 @@ export const Loans = () => {
                           className="list-group-item list-group-item-action"
                           aria-current="true"
                           data-bs-toggle="modal"
-                          data-bs-target={`mobilemodel${shelfCurrentLoan.book.id}`}
+                          data-bs-target={`mobilemodal${shelfCurrentLoan.book.id}`}
                         >
                           Manage Loan
                         </button>
