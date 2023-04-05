@@ -15,7 +15,7 @@ export const ShelfPage = () => {
               className="nav-link active"
               id="nav-loans-tab"
               data-bs-toggle="tab"
-              data-bs-target="#nav-laons"
+              data-bs-target="#nav-loans"
               type="button"
               role="tab"
               aria-controls="nav-loans"
@@ -43,7 +43,7 @@ export const ShelfPage = () => {
             className="tab-pane fade show active"
             id="nav-loans"
             role="tabpanel"
-            aria-labelledby="nav-laons-tab"
+            aria-labelledby="nav-loans-tab"
           >
             <Loans />
           </div>
